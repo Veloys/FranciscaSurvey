@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset=utf-8>
+  <title>Is my girlfriend the best?"</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Is my girlfirend the best?<h1>
+  <p id="description">Is she the best in the world?</p>
+  <form id="survey-form" method="post" action="https://register-demo freecodecamp.org">
+    <fieldset>
+      <label id="name-label" for "name" >What is her name?<input id="name" type="text" placeholder="Put your name bitch" required/></label>
+      <label  id="email-label" for "email" >What is her email?<input id="email" type="email" placeholder="Put your email hoe" required/></label>
+       <label id="number-label" for="number">What is her age? <input id="number" type="number" name="age" min="24" max="24" placeholder="Put your old ass age" /></label>
+      <label for "from" >Where is she from?<input id="from" type="text" placeholder="Put your age caralho" required/></label>
+    </fieldset>
+    <fieldset>
+     <label for "Smell" >What does she smell of?
+        <select required id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Lisbon Pee</option>
+            <option value="2">Lisbon Poo</option>
+            <option value="3">Pasteis de natas</option>
+            <option value="4">Other</option>
+          </select>
+      </label>
+      <label for "Best" >Is she really the best?
+        <textarea id="Best" name="Best" rows="3" cols="30" placeholder="Explain why..."></textarea>
+      </label>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Does she neglect her boyfriend</legend>
+        <label for="does"><input id="does" value="1" type="radio" name="yes" class="inline" checked /> Yes</label>
+        <label for="does-not"><input id="does-not" value="1" type="radio" name="yes" class="inline" disabled /> No</label>
+      </fieldset>
+      
+      <fieldset>
+      <legend>How badly does she neglect her boyfriend?</legend>
+      <label "for="bad">
+        <input disabled id="bad" value="bad" type="checkbox" class="inline" />Badly
+      </label>
+      <label "for="meh">
+        <input disabled id="meh" value="meh" type="checkbox" class="inline" />Not so much
+      </label>
+      <label "for="ex">
+        <input  required checked id="ex" value="extremely" type="checkbox" class="inline" />Extremely
+      </label>
+    </fieldset>
+    <input id="submit" type="submit" value="Submit" />
+  </form>
+</body>
+</html>
